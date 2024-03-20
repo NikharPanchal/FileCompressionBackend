@@ -2,10 +2,10 @@ package com.filecompression.service;
 
 import java.io.InputStream;
 
+import javax.servlet.http.HttpServletResponse;
+
 import com.filecompression.entity.FileCompression;
 import com.filecompression.entity.FileVo;
-
-import jakarta.servlet.http.HttpServletResponse;
 
 public interface FileCompressionService {
 
