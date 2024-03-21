@@ -67,6 +67,10 @@
         </plugin>
     </plugins>
 </build>
-
-
+<distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/NikharPanchal/FileCompressionBackend</url>
+		</repository>
+	</distributionManagement>
 </project>
